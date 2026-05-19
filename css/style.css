@@ -2393,4 +2393,37 @@ border-radius:15px;
     width: 30px;
     height: 30px;
   }
+  @media (max-width: 768px) {
+  header {
+    padding: 16px 20px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  nav img,
+  .logo img {
+    max-width: 130px;
+    height: auto;
+  }
+
+  nav ul,
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a,
+  .nav-links a {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+}
 }
